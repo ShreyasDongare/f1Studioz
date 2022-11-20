@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/048afdd938.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Orders</title>
+</head>
+
+<body class="antialiased bg-[#E5E5E5]">
+    <nav class="bg-black px-2 py-2 flex justify-between">
+        <div class="cursor-pointer">
+            <img src="./Asset/logo.svg" alt="" />
+        </div>
+        <ul class="hidden md:flex">
+            <li>
+                <img class="h-8 mx-2 cursor-pointer hover:bg-slate-700" src="./Asset/Group 115.svg" alt="" />
+            </li>
+            <li>
+                <img class="h-8 mx-2 cursor-pointer hover:bg-slate-700" src="./Asset/bell.png" alt="" />
+            </li>
+            <li>
+                <img class="h-8 mx-2 cursor-pointer hover:bg-slate-700" src="./Asset/baseline-help-24px copy 2.png"
+                    alt="" />
+            </li>
+            <li>
+                <img class="h-8 mx-2 cursor-pointer hover:bg-slate-700" src="./Asset//avator.png" alt="" />
+            </li>
+        </ul>
+        <div class="cursor-pointer hover:rotate-90 transition-all md:hidden">
+            <div class="lines bg-gray-400 my-2 h-0.5 w-8"></div>
+            <div class="lines bg-gray-400 my-2 h-0.5 w-8"></div>
+            <div class="lines bg-gray-400 my-2 h-0.5 w-8"></div>
+        </div>
+    </nav>
+    <div class="flex justify-center bg-gray-700 text-white h-12">
+        <div class="flex justify-center align-middle w-96">
+            <div class="w-full text-center cursor-pointer hover:border-b-4 border-[#FACA30]">
+                <p class="mt-3">MY ORDER</p>
+            </div>
+            <div class="w-full text-center cursor-pointer hover:border-b-4 border-[#FACA30]">
+                <p class="mt-3">
+                    MY ORDER
+                    <span class="bg-[#FACA30] px-1.5 rounded-2xl text-black font-bold">2</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <main class="grid grid-cols-4 border">
+        <div class="col-span-1 p-2 relative ">
+            <div class="absolute -z-10 top-[78px] overflow-hidden left-6 h-[600px] bg-gray-400 w-[1px]"></div>
+                <div class="absolute top-[160px] left-[16px]">
+                    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M8 16.5C12.4183 16.5 16 12.9183 16 8.5C16 4.08172 12.4183 0.5 8 0.5C3.58172 0.5 0 4.08172 0 8.5C0 12.9183 3.58172 16.5 8 16.5Z"
+                            fill="#C6D0DD" />
+                    </svg>
+            
+                </div>
+                <div class="absolute top-[223px] left-[16px]">
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M8 16.5C12.4183 16.5 16 12.9183 16 8.5C16 4.08172 12.4183 0.5 8 0.5C3.58172 0.5 0 4.08172 0 8.5C0 12.9183 3.58172 16.5 8 16.5Z"
+                        fill="#66332B" />
+                </svg>
+                </div>
+                <div class="absolute top-[286px] left-[16px]">
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M8 16.5C12.4183 16.5 16 12.9183 16 8.5C16 4.08172 12.4183 0.5 8 0.5C3.58172 0.5 0 4.08172 0 8.5C0 12.9183 3.58172 16.5 8 16.5Z"
+                        fill="#C6D0DD" />
+                </svg>
+                </div>
+                <div class="absolute top-[350px] left-[16px]">
+            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M8 16.5C12.4183 16.5 16 12.9183 16 8.5C16 4.08172 12.4183 0.5 8 0.5C3.58172 0.5 0 4.08172 0 8.5C0 12.9183 3.58172 16.5 8 16.5Z"
+                    fill="#C6D0DD" />
+            </svg>
+                </div>
+                <div class="absolute top-[415px] left-[16px]">
+            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M8 16.5C12.4183 16.5 16 12.9183 16 8.5C16 4.08172 12.4183 0.5 8 0.5C3.58172 0.5 0 4.08172 0 8.5C0 12.9183 3.58172 16.5 8 16.5Z"
+                    fill="#C6D0DD" />
+            </svg>
+                </div>
+                <div class="absolute top-[479px] left-[16px]">
+            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M8 16.5C12.4183 16.5 16 12.9183 16 8.5C16 4.08172 12.4183 0.5 8 0.5C3.58172 0.5 0 4.08172 0 8.5C0 12.9183 3.58172 16.5 8 16.5Z"
+                    fill="#C6D0DD" />
+            </svg>
+                </div>
+                        
+                <div class="absolute top-[541px] left-[16px]">
+            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M8 16.5C12.4183 16.5 16 12.9183 16 8.5C16 4.08172 12.4183 0.5 8 0.5C3.58172 0.5 0 4.08172 0 8.5C0 12.9183 3.58172 16.5 8 16.5Z"
+                    fill="#C6D0DD" />
+            </svg>
+                </div>
+                        
+
+            <div class="flex justify-evenly my-[14px] items-center">
+                <div>
+                    <svg width="167" height="36" viewBox="0 0 167 36" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="167" height="36" fill="url(#pattern0)" />
+                    <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_1_364" transform="scale(0.00166667 0.00724638)" />
+                        </pattern>
+                        <image id="image0_1_364" width="600" height="138"
+                                xlink:href="data:image/png;base64,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" />
+                            </defs>
+                        </svg>
+
+                    </div>
+                    <div>
+                        <svg width="100" height="24" viewBox="0 0 100 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="100" height="24" rx="12" fill="#1ABC6B" fill-opacity="0.2" />
+                        <path
+                        d="M15.13 10.864H17.258C17.1927 10.2853 17.034 9.772 16.782 9.324C16.53 8.876 16.208 8.50267 15.816 8.204C15.4333 7.896 14.9947 7.66267 14.5 7.504C14.0147 7.34533 13.4967 7.266 12.946 7.266C12.1807 7.266 11.49 7.40133 10.874 7.672C10.2673 7.94267 9.754 8.316 9.334 8.792C8.914 9.268 8.592 9.828 8.368 10.472C8.144 11.1067 8.032 11.7973 8.032 12.544C8.032 13.272 8.144 13.9533 8.368 14.588C8.592 15.2133 8.914 15.7593 9.334 16.226C9.754 16.6927 10.2673 17.0613 10.874 17.332C11.49 17.5933 12.1807 17.724 12.946 17.724C13.562 17.724 14.1267 17.6307 14.64 17.444C15.1533 17.2573 15.6013 16.9867 15.984 16.632C16.3667 16.2773 16.6747 15.848 16.908 15.344C17.1413 14.84 17.286 14.2753 17.342 13.65H15.214C15.13 14.322 14.8967 14.8633 14.514 15.274C14.1407 15.6847 13.618 15.89 12.946 15.89C12.4513 15.89 12.0313 15.7967 11.686 15.61C11.3407 15.414 11.0607 15.1573 10.846 14.84C10.6313 14.5227 10.4727 14.168 10.37 13.776C10.2767 13.3747 10.23 12.964 10.23 12.544C10.23 12.1053 10.2767 11.6807 10.37 11.27C10.4727 10.8593 10.6313 10.4953 10.846 10.178C11.0607 9.85133 11.3407 9.59467 11.686 9.408C12.0313 9.212 12.4513 9.114 12.946 9.114C13.2167 9.114 13.4733 9.16067 13.716 9.254C13.968 9.338 14.192 9.45933 14.388 9.618C14.584 9.77667 14.7473 9.96333 14.878 10.178C15.0087 10.3833 15.0927 10.612 15.13 10.864ZM20.607 12.544C20.607 12.1053 20.6536 11.6807 20.747 11.27C20.8496 10.8593 21.0083 10.4953 21.223 10.178C21.4376 9.85133 21.7176 9.59467 22.063 9.408C22.4083 9.212 22.8283 9.114 23.323 9.114C23.8176 9.114 24.2376 9.212 24.583 9.408C24.9283 9.59467 25.2083 9.85133 25.423 10.178C25.6376 10.4953 25.7916 10.8593 25.885 11.27C25.9876 11.6807 26.039 12.1053 26.039 12.544C26.039 12.964 25.9876 13.3747 25.885 13.776C25.7916 14.168 25.6376 14.5227 25.423 14.84C25.2083 15.1573 24.9283 15.414 24.583 15.61C24.2376 15.7967 23.8176 15.89 23.323 15.89C22.8283 15.89 22.4083 15.7967 22.063 15.61C21.7176 15.414 21.4376 15.1573 21.223 14.84C21.0083 14.5227 20.8496 14.168 20.747 13.776C20.6536 13.3747 20.607 12.964 20.607 12.544ZM18.409 12.544C18.409 13.272 18.521 13.9533 18.745 14.588C18.969 15.2133 19.291 15.7593 19.711 16.226C20.131 16.6927 20.6443 17.0613 21.251 17.332C21.867 17.5933 22.5576 17.724 23.323 17.724C24.0976 17.724 24.7883 17.5933 25.395 17.332C26.0016 17.0613 26.515 16.6927 26.935 16.226C27.355 15.7593 27.677 15.2133 27.901 14.588C28.125 13.9533 28.237 13.272 28.237 12.544C28.237 11.7973 28.125 11.1067 27.901 10.472C27.677 9.828 27.355 9.268 26.935 8.792C26.515 8.316 26.0016 7.94267 25.395 7.672C24.7883 7.40133 24.0976 7.266 23.323 7.266C22.5576 7.266 21.867 7.40133 21.251 7.672C20.6443 7.94267 20.131 8.316 19.711 8.792C19.291 9.268 18.969 9.828 18.745 10.472C18.521 11.1067 18.409 11.7973 18.409 12.544ZM29.7394 7.504V17.5H31.7974V10.486H31.8254L34.2754 17.5H35.9694L38.4194 10.416H38.4474V17.5H40.5054V7.504H37.4114L35.1994 14.378H35.1714L32.8334 7.504H29.7394ZM44.6386 12.208V9.212H46.3466C46.5986 9.212 46.8413 9.23067 47.0746 9.268C47.3079 9.30533 47.5133 9.38 47.6906 9.492C47.8679 9.59467 48.0079 9.744 48.1106 9.94C48.2226 10.136 48.2786 10.3927 48.2786 10.71C48.2786 11.0273 48.2226 11.284 48.1106 11.48C48.0079 11.676 47.8679 11.83 47.6906 11.942C47.5133 12.0447 47.3079 12.1147 47.0746 12.152C46.8413 12.1893 46.5986 12.208 46.3466 12.208H44.6386ZM42.4406 7.504V17.5H44.6386V13.916H46.9486C47.5739 13.916 48.1059 13.8273 48.5446 13.65C48.9833 13.4633 49.3379 13.2207 49.6086 12.922C49.8886 12.6233 50.0893 12.2827 50.2106 11.9C50.3413 11.508 50.4066 11.1113 50.4066 10.71C50.4066 10.2993 50.3413 9.90267 50.2106 9.52C50.0893 9.13733 49.8886 8.79667 49.6086 8.498C49.3379 8.19933 48.9833 7.96133 48.5446 7.784C48.1059 7.59733 47.5739 7.504 46.9486 7.504H42.4406ZM51.7785 7.504V17.5H58.8485V15.652H53.9765V7.504H51.7785ZM60.0773 7.504V17.5H62.2753V7.504H60.0773ZM66.7262 13.636L68.0282 9.968H68.0562L69.3162 13.636H66.7262ZM66.9362 7.504L63.1562 17.5H65.3682L66.1522 15.274H69.8902L70.6462 17.5H72.9282L69.1902 7.504H66.9362ZM73.7902 7.504V17.5H75.8482V10.808H75.8762L80.0342 17.5H82.2322V7.504H80.1742V14.21H80.1462L75.9742 7.504H73.7902ZM86.3792 9.352V17.5H88.5772V9.352H91.5732V7.504H83.3832V9.352H86.3792Z"
+                        fill="#06B32A" />
+                    </svg>
+                    
+                </div>
+            </div>
+           
+            <div class=" rounded ">
+                <div class="flex  justify-between px-[16px] py-4 border rounded-md border-[#a4bcd4] bg-[#E7E9EB]">
+                    <p class="">Open Orders</p>
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M11.9997 7.99951C11.713 7.99951 11.4263 8.11356 11.2076 8.34118L4.32798 15.5076C3.89035 15.9634 3.89035 16.7025 4.32798 17.1582C4.76544 17.6139 5.47485 17.6139 5.91252 17.1582L11.9997 10.817L18.087 17.158C18.5246 17.6137 19.2339 17.6137 19.6714 17.158C20.1092 16.7023 20.1092 15.9632 19.6714 15.5073L12.7918 8.34096C12.5731 8.1133 12.2864 7.99951 11.9997 7.99951Z"
+                        fill="#66332B" />
+                    </svg>
+                </div>
+                <div class="flex justify-between ml-[56px] my-[6px] px-[16px] py-4 border rounded-md border-[#0091FF1F] bg-[#0091FF14]">
+                    <p class="">Open Orders</p>
+                    <p class="pr-[42px]">12</p>
+                </div>
+                <div class="flex justify-between ml-[56px] my-[6px] pr-[-15px] px-[16px] py-4 border rounded-md  bg-[#FFFFFF]">
+                    <p class="font-semibold text-base">SC Available to Sched..</p>
+                    <p class="pr-[42px]">12</p>
+                </div>
+                <div class="flex justify-between ml-[56px] my-[6px] px-[16px] py-4 border rounded-md border-[#0091FF1F] bg-[#0091FF14]">
+                    <p class="">Sitecheck Scheduled</p>
+                    <p class="pr-[42px]">12</p>
+                </div>
+                <div class="flex justify-between ml-[56px] my-[6px] px-[16px] py-4 border rounded-md border-[#0091FF1F] bg-[#0091FF14]">
+                    <p class="">Change Order</p>
+                    <p class="pr-[42px]">12</p>
+                </div>
+                <div class="flex justify-between ml-[56px] my-[6px] px-[16px] py-4 border rounded-md border-[#0091FF1F] bg-[#0091FF14]">
+                    <p class="">On Order</p>
+                    <p class="pr-[42px]">12</p>
+                </div>
+                <div class="flex justify-between ml-[56px] my-[6px] px-[16px] py-4 border rounded-md border-[#0091FF1F] bg-[#0091FF14]">
+                    <p class="">Delivered/LW</p>
+                    <p class="pr-[42px]">12</p>
+                </div>
+                <div class="flex justify-between ml-[56px] my-[6px] px-[16px] py-4 border rounded-md border-[#0091FF1F] bg-[#0091FF14]">
+                    <p class="">Door Received</p>
+                    <p class="pr-[42px]">12</p>
+                </div>
+                
+                <div class="flex justify-between px-[16px] my-1 py-4 border rounded-md border-[#a4bcd4] bg-[#E7E9EB]">
+                    <p class="">Completed Orders</p>
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12 17.0005C11.7132 17.0005 11.4265 16.8864 11.2079 16.6588L4.32823 9.49244C3.89059 9.03657 3.89059 8.29745 4.32823 7.84176C4.76569 7.38608 5.4751 7.38608 5.91277 7.84176L12 14.183L18.0872 7.84199C18.5249 7.3863 19.2342 7.3863 19.6716 7.84199C20.1095 8.29767 20.1095 9.03679 19.6716 9.49266L12.7921 16.659C12.5733 16.8867 12.2866 17.0005 12 17.0005Z"
+                            fill="#66332B" />
+                    </svg>
+
+                </div><div class="flex justify-between px-[16px] py-4 border rounded-md border-[#a4bcd4] bg-[#E7E9EB]">
+                    <p class="">Cancelled Orders</p>
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12 17.0005C11.7132 17.0005 11.4265 16.8864 11.2079 16.6588L4.32823 9.49244C3.89059 9.03657 3.89059 8.29745 4.32823 7.84176C4.76569 7.38608 5.4751 7.38608 5.91277 7.84176L12 14.183L18.0872 7.84199C18.5249 7.3863 19.2342 7.3863 19.6716 7.84199C20.1095 8.29767 20.1095 9.03679 19.6716 9.49266L12.7921 16.659C12.5733 16.8867 12.2866 17.0005 12 17.0005Z"
+                            fill="#66332B" />
+                    </svg>
+
+                </div>
+
+            </div>
+        </div>
+        <div class=" hidden col-span-3 md:block ">
+            <div class="grid grid-cols-3 p-2 m-2">
+                <div class="col-start-1 col-end-1  flex items-center">
+                    <h3>Open Orders | SC Sitecheck (49)</h3>
+                </div>
+                <div class=" col-end-5 col-span-1 flex ">
+                    <div class="flex items-center bg-white px-2 mx-2 rounded-sm border border-slate-400">
+                        <input type="text " class="outline-none" placeholder="Search...">
+                        <img class="h-5 cursor-pointer" src="./Asset/search.png" alt="">
+                    </div>
+                    <div class="flex items-center bg-white rounded-sm px-2 mr-2">
+                        <img class="h-5" src="./Asset/sort.png" alt="">
+                        <button class="p-2 w-25 bg-white rounded-sm"> filter</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white shadow-slate-500 p-2 mx-2 rounded-md">
+
+                <div class= "grid grid-cols-12 gap-2 my-5">
+                    <div class="px-2 flex items-center col-span-1"><p class="inline">Po # </p><img class="mx-3 hover:rotate-180 duration-75 cursor-pointer h-4 inline opacity-40 hover:opacity-90" src="./Asset/down-arrow.png" alt=""></div>
+                    <div class="px-2 flex items-center col-span-3"><p class="inline">Customer Details</p><img class="mx-3 hover:rotate-180 duration-75 cursor-pointer h-4 inline opacity-40 hover:opacity-90" src="./Asset/down-arrow.png" alt=""></div>
+                    <div class="px-2 flex items-center col-span-2"><p class="inline">Order Type</p><img class="mx-3 hover:rotate-180 duration-75 cursor-pointer h-4 inline opacity-40 hover:opacity-90" src="./Asset/down-arrow.png" alt=""></div>
+                    <div class="px-2 flex items-center col-span-1"><p class="inline">City</p><img class="mx-3 hover:rotate-180 duration-75 cursor-pointer h-4 inline opacity-40 hover:opacity-90" src="./Asset/down-arrow.png" alt=""></div>
+                    <div class="px-2 flex items-center col-span-2"><p class="inline">Phone #</p><img class="mx-3 hover:rotate-180 duration-75 cursor-pointer h-4 inline opacity-40 hover:opacity-90" src="./Asset/down-arrow.png" alt=""></div>
+                    <div class="px-2 flex items-center col-span-3"><p class="inline">Status</p><img class="mx-3 hover:rotate-180 duration-75 cursor-pointer h-4 inline opacity-40 hover:opacity-90" src="./Asset/down-arrow.png" alt=""></div>
+                </div>
+                <div class=" bg-[#8894A01A] py-4  grid grid-cols-12 gap-2">
+                   <div class="px-2 flex items-center col-span-1"><p class="inline">42521983</p></div>
+                   <div class="px-2 flex justify-start col-span-3 flex-col"><p class="inline font-bold">Bement Jared</p><p>144 Curt Shores, 50, Madison..</p></div>
+                   <div class="px-2 flex items-center col-span-2"><p class="">Garage Door Install</p></div>
+                   <div class="px-2 flex items-center col-span-1"><p class="inline">Hixson</p></div>
+                   <div class="px-2 flex items-center col-span-2"><p class="inline">123 456 7890</p></div>
+                   <div class="px-2 flex items-center col-span-3"><p class="inline">SC Sitecheck</p></div>
+                </div>
+                <div class=" bg-[#FFF] py-4  grid grid-cols-12 gap-2">
+                   <div class="px-2 flex items-center col-span-1"><p class="inline">42521983</p></div>
+                   <div class="px-2 flex justify-start col-span-3 flex-col"><p class="inline font-bold">Johnson</p><p>144 Curt Shores, 50, Madison..</p></div>
+                   <div class="px-2 flex items-center col-span-2"><p class="">Garage Door Install</p></div>
+                   <div class="px-2 flex items-center col-span-1"><p class="inline">Hixson</p></div>
+                   <div class="px-2 flex items-center col-span-2"><p class="inline">123 456 7890</p></div>
+                   <div class="px-2 flex items-center col-span-3"><p class="inline">Order Sent to Clopay</p></div>
+                </div>
+                <div class=" bg-[#8894A01A] py-4  grid grid-cols-12 gap-2">
+                   <div class="px-2 flex items-center col-span-1"><p class="inline">42521983</p></div>
+                   <div class="px-2 flex justify-start col-span-3 flex-col"><p class="inline font-bold">Bement Jared</p><p>144 Curt Shores, 50, Madison..</p></div>
+                   <div class="px-2 flex items-center col-span-2"><p class="">Garage Door Install</p></div>
+                   <div class="px-2 flex items-center col-span-1"><p class="inline">Hixson</p></div>
+                   <div class="px-2 flex items-center col-span-2"><p class="inline">123 456 7890</p></div>
+                   <div class="px-2 flex items-center col-span-3"><p class="inline">SC Sitecheck</p></div>
+                </div>
+                <div class=" bg-[#FFF] py-4  grid grid-cols-12 gap-2">
+                   <div class="px-2 flex items-center col-span-1"><p class="inline">42521983</p></div>
+                   <div class="px-2 flex justify-start col-span-3 flex-col"><p class="inline font-bold">Johnson</p><p>144 Curt Shores, 50, Madison..</p></div>
+                   <div class="px-2 flex items-center col-span-2"><p class="">Garage Door Install</p></div>
+                   <div class="px-2 flex items-center col-span-1"><p class="inline">Hixson</p></div>
+                   <div class="px-2 flex items-center col-span-2"><p class="inline">123 456 7890</p></div>
+                   <div class="px-2 flex items-center col-span-3"><p class="inline">Order Sent to Clopay</p></div>
+                </div>
+                <div class=" bg-[#8894A01A] py-4  grid grid-cols-12 gap-2">
+                   <div class="px-2 flex items-center col-span-1"><p class="inline">42521983</p></div>
+                   <div class="px-2 flex justify-start col-span-3 flex-col"><p class="inline font-bold">Bement Jared</p><p>144 Curt Shores, 50, Madison..</p></div>
+                   <div class="px-2 flex items-center col-span-2"><p class="">Garage Door Install</p></div>
+                   <div class="px-2 flex items-center col-span-1"><p class="inline">Hixson</p></div>
+                   <div class="px-2 flex items-center col-span-2"><p class="inline">123 456 7890</p></div>
+                   <div class="px-2 flex items-center col-span-3"><p class="inline">SC Sitecheck</p></div>
+                </div>
+                <div class=" bg-[#FFF] py-4  grid grid-cols-12 gap-2">
+                   <div class="px-2 flex items-center col-span-1"><p class="inline">42521983</p></div>
+                   <div class="px-2 flex justify-start col-span-3 flex-col"><p class="inline font-bold">Johnson</p><p>144 Curt Shores, 50, Madison..</p></div>
+                   <div class="px-2 flex items-center col-span-2"><p class="">Garage Door Install</p></div>
+                   <div class="px-2 flex items-center col-span-1"><p class="inline">Hixson</p></div>
+                   <div class="px-2 flex items-center col-span-2"><p class="inline">123 456 7890</p></div>
+                   <div class="px-2 flex items-center col-span-3"><p class="inline">Order Sent to Clopay</p></div>
+                </div>
+                <div class=" bg-[#8894A01A] py-4  grid grid-cols-12 gap-2">
+                   <div class="px-2 flex items-center col-span-1"><p class="inline">42521983</p></div>
+                   <div class="px-2 flex justify-start col-span-3 flex-col"><p class="inline font-bold">Bement Jared</p><p>144 Curt Shores, 50, Madison..</p></div>
+                   <div class="px-2 flex items-center col-span-2"><p class="">Garage Door Install</p></div>
+                   <div class="px-2 flex items-center col-span-1"><p class="inline">Hixson</p></div>
+                   <div class="px-2 flex items-center col-span-2"><p class="inline">123 456 7890</p></div>
+                   <div class="px-2 flex items-center col-span-3"><p class="inline">SC Sitecheck</p></div>
+                </div>
+              
+                
+                
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
